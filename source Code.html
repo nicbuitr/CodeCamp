@@ -19,6 +19,12 @@
   <!-- My CSS -->
   <link rel="stylesheet" href="css/main.css">
   
+  <script src="syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+  <script src="syntaxhighlighter_3.0.83/scripts/shBrushJScript.js"></script>
+  <link rel="stylesheet" href="syntaxhighlighter_3.0.83/styles/shCore.css">
+  <link rel="stylesheet" href="syntaxhighlighter_3.0.83/styles/shThemeEclipse.css">
+  
+  
 </head>
 <body>
  
@@ -47,44 +53,45 @@
   <div class="container">
     <div class="row">
       <ul class="nav nav-pills nav-justified">
-        <li role="presentation" class="active"><a href="index.html">Home</a></li>
-        <li role="presentation"><a href="problems.html">Problems</a></li>
+        <li role="presentation"><a href="index.html">Home</a></li>
+        <li role="presentation" class="active"><a href="problems.html">Problems</a></li>
         <li role="presentation"><a href="contest.html">Contests</a></li>
         <li role="presentation"><a href="faq.html">Faq</a></li>
       </ul>    
+      <ul class="nav nav-tabs nav-justified">
+        <li role="presentation"><a href="#">Problem</a></li>
+        <li role="presentation"><a href="#">Submit</a></li>
+        <li role="presentation"><a href="#">Topics</a></li>
+        <li role="presentation" class="active"><a href="#">Solution</a></li>
+      </ul>
+    </div>
+    <div class="row">
+      
     </div>
   </div>
   
-  <header class="jumbotron">
-    <div class="container">
-      <h1 class="text-center">Welcome friend!</h1>    
-    </div>    
-  </header>
-  
-  
-  <section class="container">
-    <div class="row homeMessage">
-      <div class="col-md-4">
-        <i class="fa fa-code fa-5x" aria-hidden="true"></i>
-        <h2>Coding</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatem suscipit et, vero corporis optio, quisquam ut sunt. Error, rerum id nisi quis, odit esse expedita at magnam exercitationem totam!</p>
-      </div>
-      <div class="col-md-4">
-        <i class="fa fa-pencil fa-5x" aria-hidden="true"></i>
-        <h2>Learn</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatem suscipit et, vero corporis optio, quisquam ut sunt. Error, rerum id nisi quis, odit esse expedita at magnam exercitationem totam!</p>
-      </div>
-      <div class="col-md-4">
-        <i class="fa fa-smile-o fa-5x" aria-hidden="true"></i>
-        <h2>Have fun</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatem suscipit et, vero corporis optio, quisquam ut sunt. Error, rerum id nisi quis, odit esse expedita at magnam exercitationem totam!</p>
-      </div>
+  <div class="container headProblems">
+    <div class="row">
+    <div class="col-xs-12">
+      <p><script type="syntaxhighlighter" class="brush: js"><![CDATA[
+        #include<iostream>
+
+        using namespace std;
+
+        int main()
+        {
+            int i;
+            cin >> i;
+            for( int j = 1; j <= 10; j++ )
+                cout << i << " x " << j << " = " << i*j << "\n";
+            return 0;
+        }
+
+      ]]></script></p>      
     </div>
-  </section>
+    </div>
+  </div>
   
-  
-
-
 
   <footer>
     <div class="container">
@@ -130,5 +137,11 @@
   <script src="js/jquery-3.1.1.min.js"></script>
   <!-- Import plugins BootStrap -->
   <script src="js/bootstrap.min.js"></script>
+  
+  
+  <script type="text/javascript">
+       SyntaxHighlighter.all();
+  </script>
+  
 </body>
 </html>

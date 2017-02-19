@@ -44,47 +44,90 @@
     </div>
   </nav>
   
+
   <div class="container">
     <div class="row">
       <ul class="nav nav-pills nav-justified">
-        <li role="presentation" class="active"><a href="index.html">Home</a></li>
-        <li role="presentation"><a href="problems.html">Problems</a></li>
+        <li role="presentation"><a href="index.html">Home</a></li>
+        <li role="presentation" class="active"><a href="problems.html">Problems</a></li>
         <li role="presentation"><a href="contest.html">Contests</a></li>
         <li role="presentation"><a href="faq.html">Faq</a></li>
       </ul>    
     </div>
   </div>
   
-  <header class="jumbotron">
-    <div class="container">
-      <h1 class="text-center">Welcome friend!</h1>    
-    </div>    
-  </header>
-  
-  
-  <section class="container">
-    <div class="row homeMessage">
-      <div class="col-md-4">
-        <i class="fa fa-code fa-5x" aria-hidden="true"></i>
-        <h2>Coding</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatem suscipit et, vero corporis optio, quisquam ut sunt. Error, rerum id nisi quis, odit esse expedita at magnam exercitationem totam!</p>
-      </div>
-      <div class="col-md-4">
-        <i class="fa fa-pencil fa-5x" aria-hidden="true"></i>
-        <h2>Learn</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatem suscipit et, vero corporis optio, quisquam ut sunt. Error, rerum id nisi quis, odit esse expedita at magnam exercitationem totam!</p>
-      </div>
-      <div class="col-md-4">
-        <i class="fa fa-smile-o fa-5x" aria-hidden="true"></i>
-        <h2>Have fun</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatem suscipit et, vero corporis optio, quisquam ut sunt. Error, rerum id nisi quis, odit esse expedita at magnam exercitationem totam!</p>
-      </div>
+  <!-- clasificar por tema -->  
+  <div class="container">
+    <div class="row headProblems">
+      <div class="col-md-9">
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Level</th>
+                <th>Solved</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="problem.html">Mike learns multiplication tables</a></td>
+                <td style="background-color:lime">I</td>
+                <td>200</td>
+              </tr>
+              <tr>
+                <td>Crazy parentesis <span class="label label-info">New</span></td>
+                <td>I</td>
+                <td>50</td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!-- /.table-responsive -->
+        <nav aria-label="Page navigation" class="text-center">
+          <ul class="pagination">
+            <li class="disabled"><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+          </ul>
+        </nav>
+         
+      </div> <!-- /.col-md-9 -->
+      <div class="col-md-3">
+        <h2>Random</h2>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox1" value="option1"> 4
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox2" value="option2"> 5
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox3" value="option3"> 6
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox1" value="option1"> 7
+        </label>
+        <button type="button" class="btn btn-primary btn-lg btn-block">Go!</button>
+      </div> <!-- /.col-md-9 -->
+      
+      
+      
     </div>
-  </section>
+  </div>
   
   
-
-
 
   <footer>
     <div class="container">
