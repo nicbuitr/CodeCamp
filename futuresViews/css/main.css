@@ -1,0 +1,52 @@
+/* Import Google Font Roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 70px;
+  font-size: 16px;
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: #2196F3;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer h3 {
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+
+.borderFooter {
+  border-left: 1rem solid white;
+}
+
+
+.homeMessage .col-md-4 {
+  text-align: center;
+}
+
+.homeMessage .col-md-4 .fa {
+  text-align: center;
+
+}
+
+.headProblems {
+  padding-top: 3rem;
+}
+
+em {
+  font-size: 1.1em;
+}
+
+.label {
+  font-size: 1.5rem;
+}
