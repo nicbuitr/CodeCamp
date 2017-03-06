@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 3rem;
+    background-color: #2196F3;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer h3 {
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+
+em {
+    font-size: 1.1em;
+}
+
+.label {
+    font-size: 1.5rem;
+}
