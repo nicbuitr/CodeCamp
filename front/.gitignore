@@ -1,6 +1,11 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
+# -Nicbuitr INICIO- 
+# Como ya está ignorando los modulos de node en el repositorio, puede quitarlos de git
+# ya que quien lo clone o baje, al correr "npm install" instalará todas las dependencias
+# definidas como requeridas para el proyecto en el "package.json"
+# -Nicbuitr FIN- 
 /node_modules
 
 # testing
